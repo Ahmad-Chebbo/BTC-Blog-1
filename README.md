@@ -1,4 +1,4 @@
-# My Blog
+# BTC Blog 1
 
 A simple Laravel blog that allows for posting articles, and creating pages.
 
@@ -10,8 +10,8 @@ A simple Laravel blog that allows for posting articles, and creating pages.
 ## Installation
 
 ```bash
-cd my-blog
-composer install --no-dev
+cd btc-blog-1
+composer install --no-dev OR composer update --ignore-platform-reqs
 cp .env.example .env
 php artisan key:generate
 php artisan migrate --seed
